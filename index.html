@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  
+  <!--CSS-->
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Boxicons-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chango&family=Modak&family=Monofett&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <script src="main.js" defer></script>
+  
+</head>
+
+<body>
+  
+  <header>
+    <a href="#home" class="logo">Pizza<i class='bx bxs-pizza'></i></a>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#popular">Popular</a></li>
+      <li><a href="#recipe">Recipe</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!--Home-->
+  <section class="home" id="home">  
+    <div class="home-text">
+      <h1>Yummy<br>Pizzas</h1>
+      <h2>The best pizza you'll ever taste.</h2>
+      <p>Freshest ingredients. Crafted with care. Delicious taste and quality.</p>
+      <p>Every pizza is a mouthwatering experience.</p>
+      <a href="#contact" class="button">Order Now</a>
+    </div>
+    <div class="home-img">
+      <img src="images/home_pizza.png">
+    </div>
+  </section>
+
+  <!--About Us-->
+  <section class="about" id="about">
+    <div class="about-title">
+      <h1>About Us</h1>
+    </div>
+    
+    <div class="about-img">
+      <img src="images/about_image.png">
+    </div>
+
+    <div class="about-text">
+      <p>Our pizza is crafted with a rich history of passion and</p>
+      <p>tradition. We use the best ingredients to create a perfect</p>
+      <p>balance of flavours. Inspired by classic recipes, each pizza</p>
+      <p>reflects our commitment to quality and the art of pizza-making.</p>
+    </div>
+  </section>
+
+  <!--History-->
+  <section class="history" id="history">
+    <div class="history-img">
+      <img src="images/history_image.png">
+    </div>
+    <div class="history-list">
+      <h1>Our History</h1>
+      <ul>
+        <li class="history-year">
+          <h2>1995</h2>
+          <p>We started as a small, family-owned pizzeria. We wanted to create pizzas that brought people together.</p>
+        </li>
+        <li class="history-year">
+          <h2>2005</h2>
+          <p>We opened our second location and introduced new pizza varieties, including Margherita and BBQ Chicken, which quickly became fan favorites.</p>
+        </li>
+        <li class="history-year">
+          <h2>2010</h2>
+          <p>Our commitment to quality earned us recognition in local and national food awards.</p>
+        </li>
+        <li class="history-year">
+          <h2>2020</h2>
+          <p>During challenging times, we shifted focus to delivery, making it easier for our customers to enjoy their favorite pizzas from the comfort of their homes.</p>
+        </li>
+        <li class="history-year">
+          <h2>2025</h2>
+          <p>We remain dedicated to quality, tradition, and innovation. Our pizzas continue to bring joy and flavor to generations of pizza lovers.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!--Popular-->
+  <section class="popular" id="popular">
+    <div class="popular-heading">
+      <h1>Popular Pizzas</h1>
+      <p>Here are some of our most popular pizzas, loved for their perfect combinations of fresh ingredients and bold flavors.</p>
+    </div>
+    
+    <div class="popular-container">
+      <div class="box">
+        <img src="images/pepperoni.png">
+        <h2>Pepperoni</h2>
+        <p>A classic with crispy crust, rich tomato sauce, and an abundance of pepperoni.</p>
+        <div class="popular-purchase">
+          <h2>$10</h2>
+          <i class='bx bx-shopping-bag' ></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/hawaiian.png">
+        <h2>Hawaiian</h2>
+        <p>A blend of sweet and savory flavours, with juicy pineapple and delicious ham.</p>
+        <div class="popular-purchase">
+          <h2>$13</h2>
+          <i class='bx bx-shopping-bag' ></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <img id="mushroom" src="images/mushroom.png">
+        <h2>Mushroom</h2>
+        <p>A savory delight featuring perfectly melted cheese and a layer of tender mushrooms.</p>
+        <div class="popular-purchase">
+          <h2>$12</h2>
+          <i class='bx bx-shopping-bag' ></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <img id="margherita" src="images/margherita.png">
+        <h2>Margherita</h2>
+        <p>A simple yet delicious classic, with fresh tomato sauce and fragrant basil leaves.</p>
+        <div class="popular-purchase">
+          <h2>$10</h2>
+          <i class='bx bx-shopping-bag' ></i>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!--Recipe-->
+  <section class="recipe" id="recipe">
+    <div class="recipe-heading">
+      <h1>Our Recipe</h1>
+      <p>We take pride in using only the freshest, highest-quality ingredients.</p>
+      <p>Every pizza of ours is bursting with flavor and made to perfection.</p>
+    </div>
+
+    <div class="recipe-content">
+      <div class="recipe-slideshow">
+        <div class="slide">
+          <img src="images/tomato.png">
+          <h2>Tomato</h2>
+          <p>Our pizzas are topped with hand-picked, fresh tomatoes, bringing a vibrant, juicy flavor that enhances every bite.</p>
+        </div>
+        <div class="slide">
+          <img src="images/cheese.png">
+          <h2>Cheese</h2>
+          <p>We use high-quality cheese on our pizzas, creating a rich, creamy texture that perfectly complements every topping.</p>
+        </div>
+        <div class="slide">
+          <img src="images/vegetables.png">
+          <h2>Vegetables</h2>
+          <p>Our pizzas are topped with fresh and crisp vegetables, adding a burst of flavor and vibrant color to every slice.</p>
+        </div>
+        <div class="slide">
+          <img src="images/meat.png">
+          <h2>Pepperoni</h2>
+          <p>Our perfectly seasoned pepperoni offers a bold, savory flavor and a satisfying crispy texture with every bite.</p>
+        </div>
+  
+        <a class="prev" onclick="plusSlides(-1)"><i class='bx bx-left-arrow-alt'></i></a>
+        <a class="next" onclick="plusSlides(1)"><i class='bx bx-right-arrow-alt' ></i></a>
+      </div>
+
+      <div class="recipe-img">
+        <img src="images/yummypizza.png">
+      </div>
+    </div>
+
+  </section>
+
+  <!--Contact-->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h1>Contact Us</h1>
+      <h2>Location</h2>
+      <p>1234 Random Street ABC123</p>
+      <h2>Call Us</h2>
+      <p>123-456-789</p>
+      <div class="contact-icons">
+        <i class='bx bxs-phone-call'></i>
+        <i class='bx bxs-envelope' ></i>
+        <i class='bx bxl-instagram-alt' ></i>
+        <i class='bx bxl-facebook-square' ></i>
+      </div>
+    </div>
+    <div class="contact-img">
+      <img src="images/contact_image.png">
+    </div>
+  </section>
+
+</body>
